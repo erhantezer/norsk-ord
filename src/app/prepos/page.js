@@ -212,7 +212,7 @@ export default function Preposisjoner() {
             {/* İpucu / Durum */}
             <div className="mt-5 text-sm">
               {!isCorrectPhase ? (
-                <p className="text-zinc-500">Doğru preposisjonen’i seç.</p>
+                <p className="text-zinc-500">Velg riktig preposisjon.</p>
               ) : (
                 <p className="text-emerald-600 font-medium">Riktig! 👏</p>
               )}
