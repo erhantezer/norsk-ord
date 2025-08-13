@@ -10,9 +10,7 @@ export default function HomePage() {
         <Link href="/verbLita" className="block hover:no-underline">
           <p className="text-lg font-semibold text-blue-600 mb-2">Verbliste for begynnere [75 ord]</p>
         </Link>
-        <p className="text-sm text-gray-600">
-          Verbliste for begynnere fra <span className="italic">grammatikk.com</span> av Kjell H. Ullestad
-        </p>
+        
       </li>
   
       <li className="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg">
@@ -25,11 +23,7 @@ export default function HomePage() {
         <Link href="/verbStor" className="block hover:no-underline">
           <p className="text-lg font-semibold text-blue-600 mb-2">Liste over uregelmessige verb [167 ord]</p>
         </Link>
-        <p className="text-sm text-gray-600">
-          Lang verbliste fra <span className="italic">grammatikk.com</span> av Kjell H. Ullestad.
-          <br />
-          Disse verbene følger ikke systemet for regulære verb i preteritum og presens perfektum.
-        </p>
+      
       </li>
   
       <li className="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg">
