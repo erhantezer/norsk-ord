@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Footer from './footer/page';
 
 export default function HomePage() {
   return (
@@ -8,30 +9,19 @@ export default function HomePage() {
     <ul className="grid gap-6 max-w-4xl mx-auto sm:grid-cols-2 md:grid-cols-2">
       <li className="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg">
         <Link href="/verbLita" className="block hover:no-underline">
-          <p className="text-lg font-semibold text-blue-600 mb-2">Verbliste for begynnere [75 ord]</p>
+          <p className="text-lg font-semibold text-blue-600 mb-2">Verbliste for begynnere 331 ord</p>
         </Link>
         
       </li>
   
-      <li className="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg">
-        <Link href="/verb256" className="block hover:no-underline">
-          <p className="text-lg font-semibold text-blue-600">De vanligste verbene [256 ord]</p>
-        </Link>
-      </li>
-  
-      <li className="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg">
-        <Link href="/verbStor" className="block hover:no-underline">
-          <p className="text-lg font-semibold text-blue-600 mb-2">Liste over uregelmessige verb [167 ord]</p>
-        </Link>
-      
-      </li>
   
       <li className="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg">
         <Link href="/prepos" className="block hover:no-underline">
-          <p className="text-lg font-semibold text-blue-600">Preposisjoner drill</p>
+          <p className="text-lg font-semibold text-blue-600">Preposisjoner Drill</p>
         </Link>
       </li>
     </ul>
+    <Footer/>
   </main>
   
   );

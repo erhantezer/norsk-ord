@@ -1,6 +1,7 @@
 "use client";
 import { verbLitaData } from "@/data/verbLita";
 import { useEffect } from "react";
+import Footer from "../footer/page";
 
 export default function VerbLitaPage() {
   useEffect(() => {
@@ -204,7 +205,8 @@ export default function VerbLitaPage() {
             className="text-sm text-slate-500 font-mono mt-6 tracking-wide"
           ></p>
         </div>
-      </main>
+        
+        </main><Footer />
     </>
   );
 }

@@ -30,7 +30,7 @@ export const verbLitaData = [
     { ord: "å gjøre", preteritum: "gjorde", perfektum: "har gjort", translation: "do" },
     { ord: "å glede (seg)", preteritum: "gledet", perfektum: "har gledet", translation: "look forward to" },
     { ord: "å glemme", preteritum: "glemte", perfektum: "har glemt", translation: "forget" },
-    { ord: "ågråte", preteritum: "gråt", perfektum: "har grått", translation: "cry (weep)" },
+    { ord: "å gråte", preteritum: "gråt", perfektum: "har grått", translation: "cry (weep)" },
     { ord: "å gå", preteritum: "gikk", perfektum: "har gått", translation: "go, walk, leave" },
     { ord: "å hete", preteritum: "het", perfektum: "har hett", translation: "be called" },
     { ord: "å hilse", preteritum: "hilste", perfektum: "har hilst", translation: "greet" },
