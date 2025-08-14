@@ -134,7 +134,7 @@ export default function Preposisjoner() {
   if (!current) {
     return (
       <main className="min-h-dvh grid place-items-center bg-gradient-to-b from-zinc-50 to-zinc-100">
-        <div className="animate-pulse text-zinc-500">Yükleniyor…</div>
+        <div className="animate-pulse text-zinc-500">Laster inn…</div>
       </main>
     );
   }
