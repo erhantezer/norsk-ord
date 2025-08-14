@@ -20,9 +20,9 @@ export default function HomePage() {
         </li>
       </ul>
 
-      {/* Faydalı Siteler Bölümü */}
-      <section className="max-w-4xl mx-auto mt-16">
-        <h2 className="text-2xl font-bold text-slate-800 mb-6 text-center">🌐 Faydalı Siteler</h2>
+      {/* Nyttige Nettsteder Bölümü */}
+      <section className="max-w-4xl mx-auto mt-16 text-center">
+        <h2 className="text-2xl font-bold text-slate-800 mb-6">🌐 Nyttige Nettsteder</h2>
         <ul className="space-y-4">
           <li>
             <a
