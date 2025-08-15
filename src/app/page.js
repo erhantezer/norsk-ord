@@ -20,7 +20,7 @@ export default function HomePage() {
 
         <li className="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg">
           <Link href="/prepos" className="block hover:no-underline">
-            <p className="text-lg font-semibold text-blue-600">Preposisjoner Drill</p>
+            <p className="text-lg font-semibold text-blue-600 mb-1">Preposisjoner Drill</p>
           </Link>
         </li>
       </ul>
