@@ -9,12 +9,12 @@ export default function HomePage() {
       <ul className="grid gap-6 max-w-4xl mx-auto sm:grid-cols-2 md:grid-cols-2">
         <li className="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg">
           <Link href="/verbLita" className="block hover:no-underline">
-            <p className="text-lg font-semibold text-blue-600 mb-2">Verbliste for begynnere 331 ord</p>
+            <p className="text-lg font-semibold text-blue-600 mb-1">Verbliste for begynnere 331 ord</p>
           </Link>
         </li>
         <li className="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg">
           <Link href="/godinorsk" className="block hover:no-underline">
-            <p className="text-lg font-semibold text-blue-600 mb-2">God I Norsk 1 (Uttrykk)</p>
+            <p className="text-lg font-semibold text-blue-600 mb-1">God I Norsk 1 (Uttrykk)</p>
           </Link>
         </li>
 
