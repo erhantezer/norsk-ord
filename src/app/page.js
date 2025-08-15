@@ -12,6 +12,11 @@ export default function HomePage() {
             <p className="text-lg font-semibold text-blue-600 mb-2">Verbliste for begynnere 331 ord</p>
           </Link>
         </li>
+        <li className="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg">
+          <Link href="/godinorsk" className="block hover:no-underline">
+            <p className="text-lg font-semibold text-blue-600 mb-2">God I Norsk 1 (Uttrykk)</p>
+          </Link>
+        </li>
 
         <li className="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-[1.02] hover:shadow-lg">
           <Link href="/prepos" className="block hover:no-underline">
