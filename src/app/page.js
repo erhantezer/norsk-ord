@@ -41,6 +41,16 @@ export default function HomePage() {
           </li>
           <li>
             <a
+              href="https://www.elevkanalen.no/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              👨‍🎓 Elevkanalen
+            </a>
+          </li>
+          <li>
+            <a
               href="https://voki.no/"
               target="_blank"
               rel="noopener noreferrer"
