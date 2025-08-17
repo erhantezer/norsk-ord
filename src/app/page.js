@@ -29,6 +29,11 @@ export default function HomePage() {
       <section className="max-w-4xl mx-auto mt-12 text-center">
         <h2 className="text-2xl font-bold text-slate-800 mb-6">🌐 Nyttige Nettsteder</h2>
         <ul className="space-y-4">
+        <li >
+          <Link href="/ntnu" className="block hover:no-underline">
+            <p className="text-blue-600 hover:underline">🇳🇴 NTNU Nettsider</p>
+          </Link>
+        </li>
           <li>
             <a
               href="https://lesnorsk.no/"
@@ -69,6 +74,7 @@ export default function HomePage() {
               📚 Grammatikk.com
             </a>
           </li>
+         
         </ul>
       </section>
 
