@@ -1,6 +1,6 @@
 export default function Footer() {
   // Sabit yükseklik + iOS safe-area desteği
-  const height = "56px";
+  const height = "40px";
   const safe = "env(safe-area-inset-bottom)";
 
   return (
