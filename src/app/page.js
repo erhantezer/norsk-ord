@@ -3,7 +3,7 @@ import Footer from './footer/page';
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-200 py-10 px-4">
+    <main className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-200 py-8 px-4">
       <h2 className="text-3xl font-extrabold text-center text-slate-800 mb-8">📚 Flashkort</h2>
 
       {/* Kartlar: telefonda 1 sütun, sm ve üzeri 2 sütun */}
