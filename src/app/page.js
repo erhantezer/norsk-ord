@@ -7,22 +7,22 @@ export default function HomePage() {
       <h2 className="text-3xl font-extrabold text-center text-slate-800 mb-8">📚 Flashkort</h2>
 
       {/* Kartlar: telefonda 1 sütun, sm ve üzeri 2 sütun */}
-      <ul className="grid gap-6 max-w-4xl mx-auto grid-cols-1 sm:grid-cols-2">
-  <li className="bg-white rounded-2xl shadow-md p-5 transition-transform hover:scale-[1.02] hover:shadow-lg">
+      <ul className="grid gap-3 max-w-4xl mx-auto grid-cols-1 sm:grid-cols-2">
+  <li className="bg-white rounded-2xl shadow-md p-4 transition-transform hover:scale-[1.02] hover:shadow-lg">
     <Link href="/verbLita" className="block hover:no-underline">
       <p className="text-base font-medium text-blue-600 mb-1">
         Verbliste for begynnere 331 ord
       </p>
     </Link>
   </li>
-  <li className="bg-white rounded-2xl shadow-md p-5 transition-transform hover:scale-[1.02] hover:shadow-lg">
+  <li className="bg-white rounded-2xl shadow-md p-4 transition-transform hover:scale-[1.02] hover:shadow-lg">
     <Link href="/godinorsk" className="block hover:no-underline">
       <p className="text-base font-medium text-blue-600 mb-1">
         God I Norsk 1 (Uttrykk)
       </p>
     </Link>
   </li>
-  <li className="bg-white rounded-2xl shadow-md p-5 transition-transform hover:scale-[1.02] hover:shadow-lg">
+  <li className="bg-white rounded-2xl shadow-md p-4 transition-transform hover:scale-[1.02] hover:shadow-lg">
     <Link href="/prepos" className="block hover:no-underline">
       <p className="text-base font-medium text-blue-600 mb-1">
         Preposisjoner Drill
@@ -33,7 +33,7 @@ export default function HomePage() {
 
 
       {/* Nyttige Nettsteder: her boyutta 2 sütun sabit */}
-      <section className="max-w-4xl mx-auto mt-10">
+      <section className="max-w-4xl mx-auto mt-9">
         <h3 className="text-xl font-bold text-slate-800 mb-6 text-center">🌐 Nyttige Nettsteder</h3>
         <ul className="grid grid-cols-2 gap-3">
           <li>
@@ -84,7 +84,6 @@ export default function HomePage() {
               📚 Grammatikk
             </a>
           </li>
-          {/* Yeni eklenen eğitim siteleri */}
           <li>
             <a
               href="https://nyinorge.portfolio.no/"
@@ -137,9 +136,6 @@ export default function HomePage() {
           </li>
         </ul>
       </section>
-
-
-
       <Footer />
     </main>
   );
