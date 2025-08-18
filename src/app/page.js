@@ -6,40 +6,50 @@ export default function HomePage() {
     <main className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-200 py-10 px-4">
       <h1 className="text-4xl font-extrabold text-center text-slate-800 mb-8">📚 Flashkort</h1>
 
-      <ul className="grid gap-6 max-w-4xl mx-auto sm:grid-cols-2 md:grid-cols-2">
-        <li className="bg-white rounded-2xl shadow-md p-5 transition-transform hover:scale-[1.02] hover:shadow-lg">
-          <Link href="/verbLita" className="block hover:no-underline">
-            <p className="text-lg font-semibold text-blue-600 mb-1">Verbliste for begynnere 331 ord</p>
-          </Link>
-        </li>
-        <li className="bg-white rounded-2xl shadow-md p-5 transition-transform hover:scale-[1.02] hover:shadow-lg">
-          <Link href="/godinorsk" className="block hover:no-underline">
-            <p className="text-lg font-semibold text-blue-600 mb-1">God I Norsk 1 (Uttrykk)</p>
-          </Link>
-        </li>
+      {/* Kartlar: telefonda 1 sütun, sm ve üzeri 2 sütun */}
+      <ul className="grid gap-6 max-w-4xl mx-auto grid-cols-1 sm:grid-cols-2">
+  <li className="bg-white rounded-2xl shadow-md p-5 transition-transform hover:scale-[1.02] hover:shadow-lg">
+    <Link href="/verbLita" className="block hover:no-underline">
+      <p className="text-base font-medium text-blue-600 mb-1">
+        Verbliste for begynnere 331 ord
+      </p>
+    </Link>
+  </li>
+  <li className="bg-white rounded-2xl shadow-md p-5 transition-transform hover:scale-[1.02] hover:shadow-lg">
+    <Link href="/godinorsk" className="block hover:no-underline">
+      <p className="text-base font-medium text-blue-600 mb-1">
+        God I Norsk 1 (Uttrykk)
+      </p>
+    </Link>
+  </li>
+  <li className="bg-white rounded-2xl shadow-md p-5 transition-transform hover:scale-[1.02] hover:shadow-lg">
+    <Link href="/prepos" className="block hover:no-underline">
+      <p className="text-base font-medium text-blue-600 mb-1">
+        Preposisjoner Drill
+      </p>
+    </Link>
+  </li>
+</ul>
 
-        <li className="bg-white rounded-2xl shadow-md p-5 transition-transform hover:scale-[1.02] hover:shadow-lg">
-          <Link href="/prepos" className="block hover:no-underline">
-            <p className="text-lg font-semibold text-blue-600 mb-1">Preposisjoner Drill</p>
-          </Link>
-        </li>
-      </ul>
 
-      {/* Nyttige Nettsteder Bölümü */}
-      <section className="max-w-4xl mx-auto mt-10 text-center">
-        <h2 className="text-2xl font-bold text-slate-800 mb-6">🌐 Nyttige Nettsteder</h2>
-        <ul className="space-y-4">
-        <li >
-          <Link href="/ntnu" className="block hover:no-underline">
-            <p className="text-blue-600 hover:underline">🇳🇴 NTNU Nettsider</p>
-          </Link>
-        </li>
+      {/* Nyttige Nettsteder: her boyutta 2 sütun sabit */}
+      <section className="max-w-4xl mx-auto mt-10">
+        <h2 className="text-2xl font-bold text-slate-800 mb-6 text-center">🌐 Nyttige Nettsteder</h2>
+        <ul className="grid grid-cols-2 gap-3">
+          <li>
+            <Link
+              href="/ntnu"
+              className="block rounded-lg px-3 py-2 text-blue-600 hover:underline hover:bg-slate-100"
+            >
+              🇳🇴 NTNU Nettsider
+            </Link>
+          </li>
           <li>
             <a
               href="https://lesnorsk.no/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="block rounded-lg px-3 py-2 text-blue-600 hover:underline hover:bg-slate-100"
             >
               📖 Les Norsk
             </a>
@@ -49,7 +59,7 @@ export default function HomePage() {
               href="https://www.elevkanalen.no/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="block rounded-lg px-3 py-2 text-blue-600 hover:underline hover:bg-slate-100"
             >
               👨‍🎓 Elevkanalen
             </a>
@@ -59,7 +69,7 @@ export default function HomePage() {
               href="https://voki.no/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="block rounded-lg px-3 py-2 text-blue-600 hover:underline hover:bg-slate-100"
             >
               🎙️ Voki
             </a>
@@ -69,14 +79,57 @@ export default function HomePage() {
               href="https://grammatikk.com/index.html"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
+              className="block rounded-lg px-3 py-2 text-blue-600 hover:underline hover:bg-slate-100"
             >
-              📚 Grammatikk.com
+              📚 Grammatikk
             </a>
           </li>
-         
+          {/* Yeni eklenen eğitim siteleri */}
+          <li>
+            <a
+              href="https://nyinorge.portfolio.no/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-lg px-3 py-2 text-blue-600 hover:underline hover:bg-slate-100"
+            >
+              🎓 Ny i Norge
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://mernorsk.portfolio.no/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-lg px-3 py-2 text-blue-600 hover:underline hover:bg-slate-100"
+            >
+              🏫 Mer norsk
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://norskgrammatikk.cappelendamm.no/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-lg px-3 py-2 text-blue-600 hover:underline hover:bg-slate-100"
+            >
+              ✏️ Norsk grammatikk
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://norsksidene.no/web/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-lg px-3 py-2 text-blue-600 hover:underline hover:bg-slate-100"
+            >
+              📖 Norsksidene
+            </a>
+          </li>
+          <li className="invisible"></li>
         </ul>
       </section>
+
+
 
       <Footer />
     </main>
