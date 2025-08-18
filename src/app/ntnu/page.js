@@ -30,15 +30,27 @@ export default function Ntnu (){
             </li>
             <li>
             <a
+                href="https://www.ntnu.edu/learnnowyouth/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                3️⃣ LearnNow Youth
+              </a>
+              
+            </li>
+            <li>
+            <a
                 href="https://www.ntnu.edu/now2/1/1a"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                3️⃣ Now 2 
+              4️⃣ Now 2 
               </a>
               
             </li>
+          
             <li>
             <a
                 href="https://www.ntnu.edu/web/learnnow2-hs/kap1"
@@ -46,7 +58,7 @@ export default function Ntnu (){
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                4️⃣ LearnNow 2 
+                5️⃣ LearnNow 2 
               </a>
             </li>
           </ul>
