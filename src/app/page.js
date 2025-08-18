@@ -4,7 +4,7 @@ import Footer from './footer/page';
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-200 py-10 px-4">
-      <h1 className="text-4xl font-extrabold text-center text-slate-800 mb-8">📚 Flashkort</h1>
+      <h2 className="text-4xl font-extrabold text-center text-slate-800 mb-8">📚 Flashkort</h2>
 
       {/* Kartlar: telefonda 1 sütun, sm ve üzeri 2 sütun */}
       <ul className="grid gap-6 max-w-4xl mx-auto grid-cols-1 sm:grid-cols-2">
@@ -34,7 +34,7 @@ export default function HomePage() {
 
       {/* Nyttige Nettsteder: her boyutta 2 sütun sabit */}
       <section className="max-w-4xl mx-auto mt-10">
-        <h2 className="text-2xl font-bold text-slate-800 mb-6 text-center">🌐 Nyttige Nettsteder</h2>
+        <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">🌐 Nyttige Nettsteder</h3>
         <ul className="grid grid-cols-2 gap-3">
           <li>
             <Link
