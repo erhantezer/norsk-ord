@@ -116,12 +116,12 @@ export default function HomePage() {
           </li>
           <li>
             <a
-              href="https://norsksidene.no/web/"
+              href="https://norskpajobben.portfolio.no/"
               target="_blank"
               rel="noopener noreferrer"
               className="block rounded-lg px-3 py-2 text-blue-600 hover:underline hover:bg-slate-100"
             >
-              📘 Norsksidene
+              📘 Norsk på jobben
             </a>
           </li>
           <li>
