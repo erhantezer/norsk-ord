@@ -18,7 +18,7 @@ export default function HomePage() {
   <li className="bg-white rounded-2xl shadow-md p-4 transition-transform hover:scale-[1.02] hover:shadow-lg">
     <Link href="/godinorsk" className="block hover:no-underline">
       <p className="text-base font-medium text-blue-600 mb-1">
-        God I Norsk 1 (Uttrykk)
+        God i Norsk 1 (Uttrykk)
       </p>
     </Link>
   </li>
