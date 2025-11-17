@@ -1,6 +1,6 @@
 export const godinorsk =  [
     {ord: "å banker på", preteritum: "banket på", perfektum: "har banket på", translation: "to knock on"},
-    {ord: "å bestemme seg for", preteritum: "danset", perfektum: "har danset", translation: "to decide on"},
+    {ord: "å bestemme seg for", preteritum: "bestemte", perfektum: "har bestemt", translation: "to decide on"},
     {ord: "å bli (med)", preteritum: "ble (med)", perfektum: "har blitt (med)", translation: "to join"},
     {ord: "å bli kjent med", preteritum: "ble kjent med", perfektum: "har blitt kjent med", translation: "to get to know"},
     {ord: "å bytte på", preteritum: "byttet på", perfektum: "har byttet på", translation: "to take turns"},
